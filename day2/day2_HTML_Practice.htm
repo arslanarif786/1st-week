@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+
+    <title> My First Web Page </title>
+
+    <style>
+        body {
+            background-image: url('tech.jpg');
+            /* it stops the repeat image feature*/
+            background-repeat: no-repeat;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #D8C0B0;
+            border-collapse: collapse;
+            color: red;
+            border-radius: 10px;
+            text-align: center;
+            background-color: #EADCD3;
+        }
+
+        .anchor {
+            text-align: center;
+        }
+
+        @media (max-width: 1500px) {
+            #after-video {
+                background-image: url('pexels2.jpg');
+                background-repeat: no-repeat;
+                width: auto;
+                height: auto;
+            }
+
+
+            .after-video2 {
+                margin-top: 50px;
+            }
+        }
+
+        .facility {
+            /* it arrange border from left & right & padding & text alignment*/
+            margin: auto;
+            max-width: 500px;
+            padding: 5px 5px 5px 5px;
+            text-align: justify;
+            background-color: rgb(173, 223, 36);
+        }
+
+        .facility2 {
+            /* border */
+            border: 1px solid rgb(189, 38, 38);
+            border-radius: 10px;
+            /* font style shorthand*/
+            font: italic small-caps bold 12px/30px sans-serif;
+        }
+
+        div.second {
+            /* Transparency with RGBA */
+            margin: left;
+            max-width: 500px;
+            background: rgba(211, 42, 4, 0.2);
+            padding: 0px 5px 0px 5px;
+            
+        }
+
+        div.third {
+            /* Transparency with RGBA */
+            background: rgba(211, 42, 4, 0.5);
+            margin: left;
+            max-width: 500px;
+            padding: 0px 5px 0px 5px;
+        }
+
+        .another-paragraph {
+            margin-left: 15px;
+            margin-right: 800px;
+            padding: 0px 5px 0px 5px;
+        }
+
+
+        .a_block {
+
+            /* take a paragraph and do it on center  by margin auto and width-500px  and for background-image: cover or 100% 100%*/
+            /* box model */
+            border: 2px solid rgb(218, 77, 77);
+            max-width: 500px;
+            margin: auto;
+            margin-top: 50px;
+            color: white;
+            /* background-color: ivory; */
+            background-image: url('splash.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            /* automatically adjust the size of image */
+            /* background-size: 100% 100%; */
+
+            /* it expand the image */
+            background-size: cover;
+            padding: 0px 5px 0px 5px;
+
+        }
+
+        .paragraph_block {
+            max-width: 700px;
+            margin: 15px 15px 15px 15px;
+            color: rgb(230, 222, 10);
+        }
+    </style>
+</head>
+
+
+<body>
+    <div>
+        <h1 style="background-color: #E47F07; color:white; text-align: center;"> Programmers Force Training</h1>
+
+        <h2 style="color:green;"> About Session </h2>
+
+        <p style="text-align: justify; color:#E47F07;"> We are providing the best facilities to our learners. We are
+            providing almost the every field of technology in
+            our training session including <i> <b> artifical intelligence, data science, frontend engineering, backend
+                    engineering,
+                    python development, IOS development, android development, MTO full stack development </i> </b> etc.
+            Basically, we provide
+            such type of environment to our learners through which they can learn the best skills to compete with the
+            industry
+            and we want to fill the gap between fresh graduates and IT industry.
+        </p>
+        <!--<img src="tech_facility.jpg" width="300" height="200" alt="Tech Facility" >-->
+
+        <br> <!-- it is used to place a line break(space) -->
+        <hr> <!-- it is used to place a horizontal rule -->
+        <br> <br>
+        <h2 style="color:green; text-align: center;"> <u> Offices </u> </h2>
+    </div>
+
+    <!-- table format  -->
+    <div>
+        <table style="width:100%;">
+            <tr>
+                <td> <b>Programmers Force </b></td>
+                <td><b>Branches Location</b></td>
+                <td> <b>Type</b></td>
+            </tr>
+            <tr>
+                <td>PF_1</td>
+                <td>Johar Town</td>
+                <td>ISO Certified</td>
+            </tr>
+            <tr>
+                <td>PF_2</td>
+                <td>Shadewal Chowk</td>
+                <td>Main Office</td>
+            </tr>
+            <tr>
+                <td>PF_3</td>
+                <td>Johar Town</td>
+                <td>Techline</td>
+            </tr>
+            <tr>
+                <td>PF_4</td>
+                <td>Thokar</td>
+                <td>Trainee Office</td>
+            </tr>
+            <tr>
+                <td>PF_5</td>
+                <td>Johar Town</td>
+                <td>HR department</td>
+            </tr>
+        </table>
+    </div>
+
+    <br> <br> <br> <br> <br> <br> <br>
+
+    <!-- select drop-down menu element  -->
+    <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <input type="submit">
+    </form>
+    <br> <br>
+
+    <!-- datalist element  -->
+    <form action="/action_page.php">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+
+    <!-- GET method  -->
+    <form action="/action_page.php" target="_blank" method="get">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br><br><br>
+
+    <!-- POST method or Automcomplete ON/OFF method  -->
+    <form action="/action_page.php" target="_blank" method="post" autocomplete="on">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <!-- Alert dialogue box using click button  -->
+    <h2>Input Button</h2>
+
+    <input type="button" onclick="alert('Welcome to Programmers force training session!')" value="Click Me!">
+
+    <br><br><br>
+
+    <!-- radio input type value  -->
+    <p>Choose your favorite Web language:</p>
+    <form action="/action_page.php">
+          <input type="radio" id="html" name="fav_language" value="HTML">
+          <label for="html">HTML</label><br>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+          <label for="css">CSS</label><br>
+          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+          <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br><br>
+    <!-- Pattern by using Button  -->
+    <form action="/action_page.php">
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}"
+            title="Three letter country code"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br><br>
+    <!-- checkbox  -->
+    <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- video upload (after downloading)  -->
+    <div style="margin:0px; text-align:center" ;>
+        <video width="560" height="315" controls>
+            <source src="day2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <br>
+    <!-- iframe concept  -->
+    <div style="margin:0px; text-align:center" ;>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5v5GBA9YVsI" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!--  id and class used in 1-div  -->
+    <div id="after-video" class="after-video2">
+
+        <br>
+        <!--  multiple classes used in 1-tag  -->
+        <p class="facility facility2" style="color: white;">
+            <strong> We are providing the best facilities to our learners. We are providing almost the every field of
+                technology. </strong>
+        </p>
+
+        <div class="second">
+            <h1>30% opacity</h1>
+        </div>
+
+        <div class="third">
+            <h1>60% opacity</h1>
+        </div>
+
+        <div class="another-paragraph">
+            <p>IT facilities, we areproviding main facilites of IT.</p>
+        </div>
+
+        <div class="parent_block">
+            <div class="a_block">
+                <div> The background-attachment property specifies whether the background image should scroll or be
+                    fixed
+                    (will not scroll with the rest of the page).</div>
+            </div>
+        </div>
+
+        <div class="paragraph_block">
+            <p> I have used the flex container in the below div section. </p>
+        </div>
+
+
+        <!-- Flexbox >> flex-container and flex-item -->
+        <div class="f_container">
+
+
+            <div class="f_item  box1">
+                1
+            </div>
+            <div class="f_item  box2">
+                2
+            </div>
+            <div class="f_item  box3">
+                3
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- Grid >> grid-container and grid-item -->
+
+
+
+        <br>
+        <!-- Anchor (hyperlink)  -->
+        <div class="anchor">
+            <a href="https://pf.com.pk/" target="_blank" style="color:green;"> <strong> Visit Programmers Force!
+                </strong> </a>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

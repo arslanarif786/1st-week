@@ -1,0 +1,36 @@
+.f_container {
+    color:white;
+    display: flex;
+    border: 2px solid white;
+    flex-direction: row;
+    height: 50vh;
+    /* align-items specifies the row that may be top(flex-start), center, bottom(flex-end), baseline */
+    align-items:flex-end;
+    /* justify-content specifies the column that may be flex-start, center, flex-end, left, right, space-evenly, space-around, space-between  */
+    justify-content:center;
+    /* flex-wrap is basically used for responsive the flex container on different screens */
+     flex-wrap: wrap;
+    }
+
+.f_item {
+    background-color: red;
+    border: 2px solid white;
+    margin: 10px;
+    width: 111px;
+    height: 111px;
+}
+
+.box2 {
+    order:2;
+    /*flex-grow: 2;*/
+    align-self: center;
+}
+
+.box1 {
+    order:3;
+    flex-shrink: 3;
+    /* it center the box1 */
+}
+
+
+

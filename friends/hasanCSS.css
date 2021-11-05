@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainflex {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.leftflexbox {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  border: 1px solid black;
+}
+.rightflexbox {
+  justify-content: space-between;
+  width: 1096px;
+  flex-wrap: wrap;
+}
+
+.selection1 {
+  display: flex;
+  padding: 0px 10px;
+  border-bottom: 1px solid gray;
+}
+.mainsection2 {
+  display: flex;
+  justify-content: space-between;
+}
+.mainsection3 {
+  display: flex;
+  justify-content: space-between;
+}
+.mainsection4 {
+  display: flex;
+  justify-content: space-between;
+}
+.mainsection5 {
+  display: flex;
+  justify-content: space-between;
+}
+.mainsection6 {
+  display: flex;
+  justify-content: space-between;
+}
+.mainsection7 {
+  display: flex;
+  justify-content: space-between;
+}
+.selection1,
+.mainsection2,
+.mainsection3,
+.mainsection4,
+.mainsection5,
+.mainsection6,
+.mainsection7 {
+  padding: 0px 10px;
+  border-bottom: 1px solid gray;
+}
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12,
+.item13,
+.item14,
+.item15,
+.item16,
+.item17,
+.item18,
+.item19,
+.item20,
+.item21,
+.item22,
+.item23,
+.item24,
+.item25,
+.item26,
+.item27 {
+  width: 25%;
+}
+.flexshrink {
+  flex-shrink: 3;
+}

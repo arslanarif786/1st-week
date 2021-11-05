@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="assets/css/style.css" type="image/x-icon">
+
+
+
+    <title>Amazon.com</title>
+
+    <style>
+        .pagination {
+            display: inline-block;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Main div for Whole page as a container -->
+    <div class="header_container">
+
+
+        <!-- Header div for 1st Main header on amazon website -->
+        <div class="main_header font">
+
+            <div class="leftHeader">
+                <div class="nav1" style="padding: 20px 15px 15px 17px ;">
+                    <img src="assets/images/amazon.png" width="100px" height="28px">
+                </div>
+                <div class="nav2 padding">
+                   <p style="color:rgb(199, 196, 196); text-align: center; font-size: 11px; " > Deliver to </p>
+                   <h3> <i class="fa fa-map-marker"> </i> Pakistan </h3>
+                </div>
+            </div>
+
+            <div class="centerHeader">
+                <div class="drop-down padding sflex">
+                    <!-- drop-down menu -->
+
+                    <select id="CellPhones&Accessories" name="CellPhones&Accessorie" size=auto
+                        style="background-color: rgb(242, 235, 235); padding: 6px 17px 15px 17px; margin: 0px; border-radius: 5px 0px 0px 5px;">
+                        <option value="CellPhones&Accessories"> Cell Phones & Accessories </option>
+                        <option value="All_Departments"> All_Departments </option>
+                        <option value="Arts&Crafts"> Arts & Crafts </option>
+                        <option value="Automobile"> Automobile </option>
+                        <option value="Baby"> Baby </option>
+                        <option value="Beauty&PersonalCare"> Beauty & Personal Care </option>
+                        <option value="Books"> Books </option>
+                        <input type="text" size="53"
+                            style="background-color: white; padding: 6px 17px 15px 17px; margin: -2px; border: 1px solid white ">
+                        <button type="submit"
+                            style="background-color: rgb(240, 181, 104); padding: 6px 17px 15px 17px; margin: -2px; border: 1px solid rgb(240, 181, 104); border-radius: 0px 5px 5px 0px;">
+                            <i class="fa fa-search"> </i>
+                        </button>
+                    </select>
+
+                </div>
+            </div>
+
+            <div class="rightHeader">
+                <div class="nav5 padding">
+                    <!-- drop-down menu -->
+                    <form action="/action_page.php">
+                        <select id="country" name="country"
+                            style="background-color: rgb(3, 3, 22); color:white; padding: 10px 17px 15px 17px; margin: 0px; border-color: rgb(3, 3, 22); border-radius: 5px 0px 0px 5px;  ">
+                            <option value="USA"> USA </option>
+                            <option value="Espanol"> Esp </option>
+                            <option value="Deutsch"> Deut </option>
+                            <option value="Portugues"> Por </option>
+                            <option value="pak"> PAK </option>
+                        </select>
+                    </form>
+                </div>
+                <div class="nav6 padding">
+                    <pre> Hello, Sign in </pre>
+                    <p style="text-align: center;"> <b> Account & Lists </b> </p>
+                </div>
+                <div class="nav7 padding">
+                    <pre> Returns</pre>
+                    <p> <b> & Orders </b> </p>
+                </div>
+                <div class="nav8 padding">
+                    <p> <b> Cart </b> </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header div for (2nd-Main-Sub) header on amazon website -->
+        <div class="main_sub_header">
+
+            <div class="subMain_header font">
+
+                <div class="subHeader_nav1" style="padding: 10px 15px 10px 20px;">
+                    <p> <b> All </b> </p>
+                </div>
+                <div class="subHeader_nav2 padding2">
+                    <p> Today's Deals </p>
+                </div>
+                <div class="subHeader_nav3 padding2 ">
+                    <p> Customers Service </p>
+                </div>
+                <div class="subHeader_nav4  padding2">
+                    <p> Registry </p>
+                </div>
+                <div class="subHeader_nav5 padding2">
+                    <p> Gift Cards </p>
+                </div>
+                <div class="subHeader_nav6 padding2">
+                    <p> Sell </p>
+                </div>
+
+            </div>
+
+            <div class="subMain_header2 font">
+
+                <div class="subMain_header2_nav1 padding2">
+                    <p> <b> Amazon's response to COVID-19 </b> </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="specific_thing_results_info font">
+
+            <div class="info_nav1">
+                <p> 1-24 of over 60,000 results </p>
+            </div>
+            <div class="specification_nav2" style="padding: 15px 35px 10px 20px;">
+                <p> Sort by: Featured </p>
+            </div>
+        </div>
+
+        <!-- Body Conatiner Section-->
+        <div class="body_container_grandParent_Flexbox font">
+
+            <div class="body_container_parent1_Flexbox" style="display: flex; justify-content: center;">
+                <div class="leftflexbox">
+                    <div class="borderright">
+                        <h4>Climate Pledge Friendly</h4>
+                        <input type="checkbox" id="climate" name="climate" value="Climate Pledge Friendly" />
+                        <label for="climate " class="style"> Climate Pledge Friendly</label><br /><br />
+                        <h4>Departments</h4>
+                        <br />
+                        <dl>
+                            <dt><b>Cell Phones & Accessories</b></dt>
+                            <dd class="style">Accessories</dd>
+                            <dd class="style">Cases, Holsters & Clips</dd>
+                            <dd class="style">Cell Phones</dd>
+                        </dl>
+                        <br /><br />
+                        <h4>Avg. Customer Review</h4>
+                        <span>
+                            <i class="fa fa-star" style="color: orange"></i><i class="far fa-star"
+                                style="color: orange;"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star size"></i></span><span class="style">&up</span><br />
+                        <span>
+                            <i class="fa fa-star" style="color: orange"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star size"></i></span><span class="style">&up</span><br />
+                        <span>
+                            <i class="fa fa-star" style="color: orange"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star size"></i></span><span class="style">&up</span><br />
+                        <span>
+                            <i class="fa fa-star" style="color: orange"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star size"></i></span><span class="style">&up</span><br />
+                        <span>
+                            <i class="fa fa-star" style="color: orange"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star size"></i></span><span class="style">&up</span><br /><br />
+                        <h4>Featured Brands</h4>
+                        <input type="checkbox" id="ailun" value="ailun" />
+                        <label for="ailun" class="style">Ailun</label><br />
+                        <input type="checkbox" id="trianium" value="Trianium" />
+                        <label for="trianium" class="style">Trianium</label><br />
+                        <input type="checkbox" id="tozo" value="tozo" />
+                        <label for="tozo" class="style">TOZO</label><br />
+                        <input type="checkbox" id="takagi" value="takagi" />
+                        <label for="takagi" class="style">TAKAGI</label><br />
+                        <input type="checkbox" id="yooTech" value="yooTech" />
+                        <label for="yooTech" class="style">yooTech</label><br />
+                        <input type="checkbox" id="luoatip" value="luoatip" />
+                        <label for="luoatip" class="style">LUOATIP</label><br />
+                        <input type="checkbox" id="Ferilinso" value="Ferilinso" />
+                        <label for="Ferilinso" class="style">Ferilinso</label><br /><br />
+
+                        <h4>Price</h4>
+                        <p class="style">
+                            Under$25<br />
+                            $25 to $50<br />
+                            $50 to $100<br />
+                            $100 to $200<br />
+                            $200 to Above<br />
+
+                        </p><br />
+                        <h4>Amazon Certified</h4>
+                        <input type="checkbox" id="alexa" name="alexa" />
+                        <label for="alexa" class="style">Works with Alexa</label><br /><br />
+                        <h4>From Our Brands</h4>
+                        <input type="checkbox" id="brands" name="brands" />
+                        <label for="brands" class="style">Our Brands</label><br /><br />
+                        <h4>Packaging Option</h4>
+                        <input type="checkbox" id="Packaging" name="Packaging" />
+                        <label for="climate" class="style">Frustration free Packaging</label>
+                        <br /><br /><br />
+                        <dl>
+                            <dt><b>New & Upcoming</b></dt>
+                            <dd class="style">New Arrivals</dd>
+                            <dd class="style">Coming Soon</dd>
+                        </dl><br /><br />
+                        <h4>Certification</h4>
+                        <input type="checkbox" id="star" name="star" />
+                        <label for="star" class="style">Energy Star</label><br /><br />
+                        <h4>Amazon Global Store</h4>
+                        <input type="checkbox" id="global" name="global" />
+                        <label for="global" class="style">Amazon Global Store</label><br /><br />
+                        <dl>
+                            <dt><b>Conditions</b></dt>
+                            <dd class="style">New</dd>
+                            <dd class="style">Renewed</dd>
+                            <dd class="style">Used</dd>
+                        </dl><br />
+
+                        <h4>Seller</h4>
+                        <input type="checkbox" id="ailun" value="ailun" />
+                        <label for="ailun" class="style">Amazon Export Sales LLC</label><br />
+                        <input type="checkbox" id="trianium" value="Trianium" />
+                        <label for="trianium" class="style">Amazon.com</label><br />
+                        <input type="checkbox" id="tozo" value="tozo" />
+                        <label for="tozo" class="style">BikeSomeWhere</label><br />
+                        <input type="checkbox" id="takagi" value="takagi" />
+                        <label for="takagi" class="style">TechQueen</label><br />
+                        <input type="checkbox" id="yooTech" value="yooTech" />
+                        <label for="yooTech" class="style">NonoUV</label><br />
+                        <input type="checkbox" id="luoatip" value="luoatip" />
+                        <label for="luoatip" class="style">RockSignal LLC</label><br />
+                        <input type="checkbox" id="Ferilinso" value="Ferilinso" />
+                        <label for="Ferilinso" class="style">Cosmetic Mall</label><br />
+
+                        <input type="checkbox" id="Ferilinso" value="Ferilinso" />
+                        <label for="Ferilinso" class="style">Amber World Wide</label><br />
+                        <input type="checkbox" id="Ferilinso" value="Ferilinso" />
+                        <label for="Ferilinso" class="style">Jack Cases & Solandra's Closet</label><br />
+                        <input type="checkbox" id="Ferilinso" value="Ferilinso" />
+                        <label for="Ferilinso" class="style">Backcountry</label><br />
+                        <br />
+                        <h4>Availabity</h4>
+                        <input type="checkbox" id="brands" name="brands" />
+                        <label for="brands" class="style">Include Out of Store</label><br />
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="body_container_parent2_Flexbox">
+
+                <div class="body_container_child1_Flexbox box shrink">
+                    <img src="assets/images/lightSanitizer.jpg" width="220px" height="210px" /><br />
+                    <div class="text">
+                        <span>
+                            Ailun Glass Screen Protector Compatible for iPhone pro
+                            11/iPhoneX...<br /><span style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303
+                        </span>
+                    </div>
+                </div>
+
+                <div class="body_container_child2_Flexbox box shrink">
+                    <img src="assets/images/airpords1.jpg" width="240px" height="220px" /><br />
+                    <div class="text">
+                        <span>
+                            Ailun Glass Screen Protector Compatible for iPhone pro
+                            11/iPhoneX...<br /><span style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303
+                        </span>
+                    </div>
+                </div>
+
+                <div class="body_container_child3_Flexbox box shrink">
+                    <img src="assets/images/earburd.jpg"  width="220px" height="230px" /><br />
+                    <div class="text">
+                        <p>
+                            Bose QuietComfort Noise Canceling Earbuds-Bluetooth
+                            Wireless...</br><span style="color:orange">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span><i
+                                class="fa fa-angle-down"></i>
+                            24303<br />
+                            <sup>$</sup>279<sup>00</sup><br />
+                            Only 13 left in stock-order soon.<br />
+                            More Buying Choices<br />
+                            $253.70 (9 used & new offers)
+                        </p>
+                    </div>
+                </div>
+
+                <div class="body_container_child4_Flexbox box shrink">
+                    <img src="assets/images/glass.jpg" width="233px" height="245px" /><br />
+                    <div class="text">
+                        <span>
+                            Ailun Glass Screen Protector Compatible for iPhone pro
+                            11/iPhoneX...<br /><span style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="body_container_child5_Flexbox box shrink">
+                    <img src="assets/images/airpords1.jpg" width="240px" height="220px" />
+                    <div class="text">
+                        <p>
+                            TOZO T6 True Wireless Earbuds Bluetooth Headphones Touch
+                            Contr...<span style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child6_Flexbox box shrink">
+                    <img src="assets/images/airpords3.jpg" width="233px" height="245px" />
+                    <div class="text">
+                        <p>
+                            Bose QuietComfort Noise Canceling Earbuds-Bluetooth
+                            Wireless...</br><span style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                            <sup>$</sup>279<sup>00</sup><br />
+                            Only 13 left in stock-order soon.<br />
+                            More Buying Choices<br />
+                            $253.70 (9 used & new offers)
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child7_Flexbox box shrink">
+                    <img src="assets/images/earburds1.jpg" width="233px" height="130px" />
+                    <div class="text">
+                        <p>
+                            Bose QuietComfort Noise Canceling Earbuds-Bluetooth
+                            Wireless...</br><span style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                            <sup>$</sup>279<sup>00</sup><br />
+                            Only 13 left in stock-order soon.<br />
+                            More Buying Choices<br />
+                            $253.70 (9 used & new offers)
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="body_container_child8_Flexbox box shrink">
+                    <img src="assets/images/protector.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-half-o"></i> </span><i class="fa fa-angle-down"></i> 24303
+                            </br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="body_container_child9_Flexbox box shrink">
+                    <img src="assets/images/microSD.jpg" width="220px" height="180px" />
+                    <div class="text">
+                        <p>
+                            SanDisk 128GB Extreme microSDXC UHS-1 Memory Card with Adapter...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                            <sup>$</sup>21<sup>99</sup><br />
+                            Ships to Pakistan<br />
+                            More Buying Choices<br />
+                            $19.88 (18 used & new offers)
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="body_container_child10_Flexbox box shrink">
+                    <img src="assets/images/pen.jpg" width="170px" height="270px" />
+                    <div class="text">
+                        <p>
+                            Stylus Pen for iPad with Palm Rejection, Active Pencil Compatible...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i> 63764 </br>
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child11_Flexbox box shrink">
+                    <img src="assets/images/iPhonePin2.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            iPhone Charger [Apple MFi Certified] QIRUOZ 5PACK(3/3/6/6/10FT)...<br /><span style="color:orange">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span><i
+                              class="fa fa-angle-down"></i>13,251<br /></p>
+                    </div>
+
+                </div>
+                <div class="body_container_child12_Flexbox box shrink">
+                    <img src="assets/images/GlassScreenProtector.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="body_container_child13_Flexbox box shrink">
+                    <img src="assets/images/charger.jpg" width="200px" height="240px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child14_Flexbox box shrink">
+                    <img src="assets/images/selfiecase.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child15_Flexbox box shrink">
+                    <img src="assets/images/cellCup.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            iOttie Velox Magnetic Wireless Charging Car Mount Air Vent Phone...<br /><span style="color: orange">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span><i
+                              class="fa fa-angle-down"></i>9<br />
+                            <sup>$</sup>49<sup>95</sup><br />
+                            Ships to Pakistan<br />
+                          </p>
+                    </div>
+                </div>
+                <div class="body_container_child16_Flexbox box shrink">
+                    <img src="assets/images/glass.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Ailun Glass Screen Protector Compatible for iPhone 13/13 pro...<br /><span
+                                style="color: orange">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span><i
+                                class="fa fa-angle-down"></i>
+                            602<br /> </p>
+                    </div>
+
+                </div>
+
+                <div class="body_container_child17_Flexbox box shrink">
+
+                    <img src="assets/images/Wirlesscharger.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child18_Flexbox box shrink">
+
+                    <img src="assets/images/iphoneCharger.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            iPhone Charger TAKAGI Lightening Cable 3PACK 6FT Nylon Braided US...<span
+                                style="color: orange">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span><i
+                                class="fa fa-angle-down"></i>43620<br /></p>
+                    </div>
+                </div>
+                <div class="body_container_child19_Flexbox box shrink">
+
+
+                    <img src="assets/images/adapter.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Yootech Wireless Charger,Qi-Certified 10W Max Fast Wireless Charging Pa...<br /><span
+                                style="color: orange">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span><i
+                                class="fa fa-angle-down"></i>127,265<br /></p>
+                    </div>
+                </div>
+                <div class="body_container_child20_Flexbox box shrink">
+
+
+                    <img src="assets/images/GlassScreenProtector.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Ailun Glass Screen Protector Compatible for iPhone 12/iPhone 1...<br /><span
+                                style="color:orange">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span><i
+                                class="fa fa-angle-down"></i>
+                            602<br /></p>
+                    </div>
+                </div>
+
+                <div class="body_container_child21_Flexbox box shrink">
+
+
+                    <img src="assets/images/screenPortector.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child22_Flexbox box shrink">
+
+
+                    <img src="assets/images/iphoneChargre.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            iOttie Velox Magnetic Wireless Charging Car Mount Air Vent Phone...<br /><span style="color: orange">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span><i
+                              class="fa fa-angle-down"></i>9<br />
+                            <sup>$</sup>49<sup>95</sup><br />
+                            Ships to Pakistan<br />
+                          </p>
+                    </div>
+                </div>
+                <div class="body_container_child23_Flexbox box shrink">
+
+
+                    <img src="assets/images/phoneHolder_d.jpg" width="240px" height="250px" /><br /><br />
+                    <div class="text">
+                        <p>
+                            Heininger CommuteMate CellCup Cell Phone Holder 2 Pack,Black(1015)<br />
+                            <sup>$</sup>21<sup>95</sup>
+                          <h5 class="decoration">$36.78</h5><br />
+                          Ships to Pakistan<br />
+            
+                          <p>
+                    </div>
+                </div>
+                <div class="body_container_child24_Flexbox box shrink">
+                    <img src="assets/images/tripod.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="body_container_child25_Flexbox box shrink">
+                    <img src="assets/images/airpord.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child26_Flexbox box shrink">
+                    <img src="assets/images/trpod2.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child27_Flexbox box shrink">
+                    <img src="assets/images/iphoneProtector2.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child28_Flexbox box shrink">
+                    <img src="assets/images/earburds.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="body_container_child29_Flexbox box shrink">
+                    <img src="assets/images/mobile.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child30_Flexbox box shrink">
+                    <img src="assets/images/headpones.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+
+                </div>
+				<div class="body_container_child31_Flexbox box shrink">
+                    <img src="assets/images/trpod2.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="body_container_child32_Flexbox box shrink">
+                    <img src="assets/images/iphoneProtector2.jpg" width="250px" height="250px" />
+                    <div class="text">
+                        <p>
+                            Trianium Screen Protector Compatible for iPhone 13 / iPhone...<span
+                                style="color: rgb(255, 145, 0)">
+                                <i class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i><i class="fa fa-star-half-o"></i><i
+                                    class="fa fa-star-half-o"></i></span><i class="fa fa-angle-down"></i>
+                            24303<br />
+
+                        </p>
+                    </div>
+                </div>
+				<h2> Simple Pagination </h2>
+				<div class="pagination">
+					<a href="#"> &lauto; </a>
+					<a href="#"> 1 </a>
+					<a href="#"> 2 </a>
+					<a href="#"> 3 </a>
+					<a href="#"> 4 </a>
+					<a href="#"> 5 </a>
+					<a href="#"> 6 </a>
+					<a href="#"> 7 </a>
+					<a href="#"> 8 </a>
+					<a href="#"> &raquo; </a>
+				</div>
+            </div>
+
+        </div>
+
+        <!-- Footer Container Section -->
+        <div class="footer font">
+
+            <div class="footer1">
+                <a href="#" style="background-color: #2e4663;
+                color:white;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;"> Back to top </a>
+            </div>
+
+            <div class="footer2">
+                <div class="mainfooter2" style="line-height: 25px; color:white;
+                padding: 14px 25px;
+                text-align: left;
+                text-decoration: none;
+                padding:50px;">
+                    <div class="child1_footer2">
+                        <ul style="list-style-type: none; ">
+                            <h3>Get to Know Us</h3>
+                            <li"><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Careers</a></li>
+                                <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Blog</a></li>
+                                <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">About
+                                        Amazon</a></li>
+                                <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Investor
+                                        Relations</a></li>
+                                <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Amazon
+                                        Devices</a></li>
+                        </ul>
+                    </div>
+                    <div class="child2_footer2">
+                        <ul style="list-style-type: none;">
+                            <h3>Make Money with Us</h3>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Sell on Amazon</a>
+                            </li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Sell Your Services
+                                    on Amazon</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Sell on Amazon
+                                    Business</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Sell Your Apps on
+                                    Amazon</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Become an
+                                    Affiliate</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Advertise Your
+                                    Products</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Self-Publish with
+                                    Us</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Become an Amazon
+                                    Vendor</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Sell Your
+                                    Subscription on Amazon</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">› See More Make
+                                    Money with Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="child3_footer2">
+                        <ul style="list-style-type: none;">
+                            <h3>Amazon Payment Products</h3>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Amazon Business
+                                    Card</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;"> Shop with
+                                    Points</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Reload Your
+                                    Balance</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Amazon Currency
+                                    Converter</a></li>
+                        </ul>
+                    </div>
+                    <div class="child4_footer2">
+                        <ul style="list-style-type: none;">
+                            <h3>Let Us Help You</h3>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Your Account</a>
+                            </li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Your Orders</a>
+                            </li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Shipping Rates &
+                                    Policies</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Amazon Prime</a>
+                            </li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Returns &
+                                    Replacements</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Manage Your Content
+                                    and Devices</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Amazon
+                                    Assistant</a></li>
+                            <li><a href="#" style="color:rgb(199, 196, 196); text-decoration: none;">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mainfooter22">
+
+                    <div class="nav1" style="padding: 20px 15px 15px 17px ;  margin-right: 70px">
+                        <img src="assets/images/amazon.png" width="90px" height="25px">
+                    </div>
+                    <div class="english">
+                        <a href="#" class="select"
+                            style="color:rgb(199, 196, 196); text-decoration: none; margin: 10px;"> <i
+                                class="fa fa-globe"></i> English</a>
+                    </div>
+                    <div class="dolar">
+                        <a href="#" class="select"
+                            style="color:rgb(199, 196, 196); text-decoration: none;  margin: 10px;"><i
+                                class="fa fa-globe"></i> $USD - U.S. Dollar</a>
+                    </div>
+                    <div class="US">
+                        <a href="#" class="select"
+                            style="color:rgb(199, 196, 196); text-decoration: none;  margin: 10px;"><i
+                                class="fas fa-flag-usa"></i>United States</a>
+                    </div>
+                </div>
+            </div>
+            <!--            <div class="footer3">
+
+            -->
+
+        </div>
+</body>
+
+</html>
